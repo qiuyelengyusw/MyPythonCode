@@ -21,3 +21,4 @@ if player_lift > 0 >= enemy_lift:  #如果玩家的血量大于零并且敌人�
     print("The player Win!")
 else:     #反之则判断敌人获胜
     print("The enemy Win")
+    print("Game Over")
