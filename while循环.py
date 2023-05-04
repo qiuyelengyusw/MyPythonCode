@@ -20,5 +20,5 @@ while player_lift > 0 and enemy_lift > 0:    #当玩家血量与敌人血量都�
 if player_lift > 0 >= enemy_lift:  #如果玩家的血量大于零并且敌人的血量小于等于零的时候，判定玩家获胜
     print("The player Win!")
 else:     #反之则判断敌人获胜
-    print("The enemy Win")
-    print("Game Over")
+    print("The enemy Win")  #输出结果
+    print("Game Over")  #游戏结束
