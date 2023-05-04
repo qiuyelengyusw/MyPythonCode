@@ -6,7 +6,7 @@ LastEditTime: 2023-05-02 10:34:33
 FilePath: \MyPythonProject\while循环.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
-import time  #定义一个时间函数
+import time  #定义一个时间函数，用import 调取
 player_lift = 350  #设定玩家血量值
 player_attack = 20  #设定玩家攻击力
 enemy_lift = 400  #设定敌人血量值
