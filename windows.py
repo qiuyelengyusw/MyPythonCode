@@ -6,12 +6,15 @@ nW.title("Python窗体")
 nW.geometry("600x600")
 
 
-def HelloWorld():
+def hello():
     tkinter.messagebox.showinfo("hello", tl.get())
+    la["fg"] = "red"
 
 
-bl = tkinter.Button(nW, text="按钮", command=HelloWorld)
-bl.grid(row=2, column=8)
-tl=tkinter.Entry(nW)
-tl.grid(row=0,column=0)
+bl = tkinter.Button(nW, text="确认", command=hello)
+bl.grid(row=0, column=1, padx=10)
+la = tkinter.Label(nW, text="Hello Python", font=16, fg="blue")
+la.grid(row=2, column=2, padx=10)
+tl = tkinter.Entry(nW)
+tl.grid(row=0, column=0)
 nW.mainloop()
