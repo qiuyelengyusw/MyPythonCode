@@ -66,8 +66,8 @@ else:
 var1 = "Hello World!"
 print(var1)
 print("Hello\b World!")
-print("已经将字符串更新为：", var1[:6] + "Runoob!")
-list11 = ['Google', 'Runoob', 1997, 2000, 2023]
+print("已经将字符串更新为：", var1[:6] + "Ru noob!")
+list11 = ['Google', 'Ru noob', 1997, 2000, 2023]
 list12 = [1, 2, 3, 4, 5]
 list13 = ["a", "b", "c", "d"]
 list14 = ['red', 'green', 'blue', 'yellow', 'white', 'black']
@@ -102,9 +102,9 @@ print(tinydict1)
 
 # 集合：
 # 将元素 x 添加到集合 s 中，如果元素已存在，则不进行任何操作。
-thisset = set(("Google", "Ruoob", "Taobao"))
-thisset.add("Facebook")
-print(thisset)
+Thisset = {"Google", "Ruoob", "Taobao"}
+Thisset.add("Facebook")
+print(Thisset)
 
 # 条件控制
 
