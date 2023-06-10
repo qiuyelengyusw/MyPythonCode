@@ -16,4 +16,6 @@ else:
 # 下面是if else 语句的另一种用法 <执行语句> if <条件> else <执行语句>
 print('请输入你的年龄:')
 age1 = int(input())
-print('好好学习，天天向上') if age1 <= 12  else print('欢迎观看')
+print('好好学习，天天向上') if age1 <= 12 else print('欢迎观看')
+
+# 练习
