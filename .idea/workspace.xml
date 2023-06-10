@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="while循环的练习">
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="while循环中break ,continue 以及else 语句在循环体中的应用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/while循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/while循环.py" afterDir="false" />
     </list>
@@ -101,7 +101,7 @@
       <workItem from="1686315471363" duration="371000" />
       <workItem from="1686316045130" duration="34000" />
       <workItem from="1686316144604" duration="76000" />
-      <workItem from="1686362687074" duration="7552000" />
+      <workItem from="1686362687074" duration="8903000" />
     </task>
     <task id="LOCAL-00001" summary="23230610">
       <created>1686362320493</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686378533492</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="while循环中break ,continue 以及else 语句在循环体中的应用">
+      <created>1686379449790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686379449790</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +182,8 @@
     <MESSAGE value="232306101010" />
     <MESSAGE value="分支嵌套" />
     <MESSAGE value="while循环的练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="while循环的练习" />
+    <MESSAGE value="while循环中break ,continue 以及else 语句在循环体中的应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="while循环中break ,continue 以及else 语句在循环体中的应用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,7 +197,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPythonProject$while.coverage" NAME="while循环 覆盖结果" MODIFIED="1686379317990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$while.coverage" NAME="while循环 覆盖结果" MODIFIED="1686380017579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonProject$hello.coverage" NAME="hello 覆盖结果" MODIFIED="1686299760449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../www/cgi-bin" />
     <SUITE FILE_PATH="coverage/MyPythonProject$if.coverage" NAME="if语句 覆盖结果" MODIFIED="1686364028863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonProject$for.coverage" NAME="for循环的使用练习 覆盖结果" MODIFIED="1686361736967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

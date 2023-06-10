@@ -47,3 +47,13 @@ while day <= 7:
 else:
     print('very good !')
 
+# 循环结构的嵌套 nested loop
+# 九九乘法表
+e = 1
+while e <= 9:
+    f = 1
+    while f <= e:
+        print(f, '*', e, '=', e * f, end=" ")
+        f += 1
+    print()
+    e += 1
