@@ -1,10 +1,9 @@
-class MyClass:
-    i = 123456
+class Newcloss():
+    variable_1 = 100
 
-    def f(self):
-        return "hello world!"
+    @classmethod
+    def Function(cls):
+        print(cls.variable_1)
 
 
-x = MyClass()
-print("MyClass 类的属性i为：", x.i)
-print("MyClass 类的方法f输出为：", x.f())
+Newcloss.Function()

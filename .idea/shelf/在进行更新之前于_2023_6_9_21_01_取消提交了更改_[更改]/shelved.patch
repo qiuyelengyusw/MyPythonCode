@@ -1,0 +1,127 @@
+Index: while循环.py
+===================================================================
+diff --git a/while循环.py b/while循环.py
+deleted file mode 100644
+--- a/while循环.py	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
++++ /dev/null	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
+@@ -1,26 +0,0 @@
+-'''
+-Author: qiuyelengyusw qiuyelengyu@qq.com
+-Date: 2023-05-02 09:54:12
+-LastEditors: qiuyelengyusw qiuyelengyu@qq.com
+-LastEditTime: 2023-06-08 20:05:23
+-FilePath: \MyPythonProject\while循环.py
+-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-'''
+-import time  #定义一个时间函数，用import 调取
+-player_lift = 350  #设定玩家血量值
+-player_attack = 20  #设定玩家攻击力
+-enemy_lift = 400  #设定敌人血量值
+-enemy_attack = 12  #设定敌人攻击力
+-while player_lift > 0 and enemy_lift > 0:    #当玩家血量与敌人血量都大于零时运行循环
+-    player_lift = player_lift - enemy_attack  #玩家血量等于玩家原来的血量减去敌人攻击力
+-    enemy_lift = enemy_lift - player_attack   #敌人血量等于敌人原来的血量减去玩家攻击力
+-    print("the enemy launch an attack,the player's blood:" + str(player_lift))
+-    print("the player launch an attack,the enemy's blood:" + str(enemy_lift))
+-    time.sleep(0.2) #暂停2秒
+-if player_lift > 0 >= enemy_lift:  #如果玩家的血量大于零并且敌人的血量小于等于零的时候，判定玩家获胜
+-    print("The player Win!")
+-    print("以后别玩这个了！")
+-else:     #反之则判断敌人获胜
+-    print("The enemy Win")  #输出结果
+-    print("Game Over")  #游戏结束
+-    print("以后别玩这个了！")
+\ No newline at end of file
+Index: readme.txt
+===================================================================
+diff --git a/readme.txt b/readme.txt
+deleted file mode 100644
+--- a/readme.txt	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
++++ /dev/null	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
+@@ -1,2 +0,0 @@
+-the first txt
+-20230504
+\ No newline at end of file
+Index: for循环的使用练习.py
+===================================================================
+diff --git a/for循环的使用练习.py b/for循环的使用练习.py
+deleted file mode 100644
+--- a/for循环的使用练习.py	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
++++ /dev/null	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
+@@ -1,15 +0,0 @@
+-TheSum: int = 0  #定义一个参数用来存储和
+-for i in range(2, 1001):
+-    TheTemp: int = 0 #定义一个临时参数
+-    for j in range(2, 1001):
+-        if (i % j == 0) and (j < i):
+-            TheTemp = 0
+-            break   #跳出循环
+-        else:
+-            TheTemp = i
+-    TheSum = TheSum + TheTemp #计算和 这里需要注意缩进，如果缩进错误，则计算数值出错
+-#以下是print语句个各种用法
+-print("1到1000之间所有质数和和为:" + str(TheSum))
+-print("1到1000之间所有质数的和为：{0}".format(TheSum))
+-print("1到1000之间所有质数的和为:", format(TheSum))
+-print(TheSum)
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
++++ /dev/null	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
+@@ -1,8 +0,0 @@
+-# 默认忽略的文件
+-/shelf/
+-/workspace.xml
+-# 基于编辑器的 HTTP 客户端请求
+-/httpRequests/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
+Index: 函数.py
+===================================================================
+diff --git a/函数.py b/函数.py
+deleted file mode 100644
+--- a/函数.py	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
++++ /dev/null	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
+@@ -1,19 +0,0 @@
+-
+-def greet(name):  # 声明函数
+-    print("Hello" + " " + name)  # 编写函数的功能
+-    return  # 编写函数结束语句
+-
+-
+-def age_1(age):
+-    if age < 15:
+-        return "You can still be silly as a child！" #返回字符串
+-    else:
+-        return "You are already an adult，Count a little bit in your heart!"
+-
+-
+-print("What's your name？")
+-strName = input() #将用户输入的内容赋值给strName.
+-print("How Old Are You？")
+-intAge = int(input()) #类型转换
+-greet(strName) #调用函数
+-print(age_1(intAge))
+Index: .idea/MyPythonProject.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <excludeFolder url=\"file://$MODULE_DIR$/venv\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.11 (MyPythonProject)\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/MyPythonProject.iml b/.idea/MyPythonProject.iml
+--- a/.idea/MyPythonProject.iml	(revision af91b80cf1a53a9c945f8faa90ffcc57c78c48f9)
++++ b/.idea/MyPythonProject.iml	(date 1686315566384)
+@@ -4,7 +4,7 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/venv" />
+     </content>
+-    <orderEntry type="jdk" jdkName="Python 3.11 (MyPythonProject)" jdkType="Python SDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
