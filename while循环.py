@@ -25,6 +25,25 @@ c = 0
 while c < 100:
     c += 1
     if c % 2 == 0:
-        continue    # 当 C 可以被2 整除的时候，跳过下面的print(c),重新回到条件判断语句，如果满足条件，继续执行循环体的语句
+        continue  # 当 C 可以被2 整除的时候，跳过下面的print(c),重新回到条件判断语句，如果满足条件，继续执行循环体的语句
     print(c)
 # 总结，break 语句作用是跳出整个循环体，而continue语句的作用是跳出本次循环，回到循环开始的判断条件语句，如果满足循环条件，则再次运行循环体内的代码
+
+
+# else 语句在循环中的应用
+d = 5
+while d < 10:
+    print('循环内，d 的值是：', d)
+    d += 1
+else:
+    print('循环外，d 的值是：', d)
+
+day = 1
+while day <= 7:
+    answer2 = input('今天你有好好学习了吗？')
+    if answer2 != "yes":
+        break
+    day += 1
+else:
+    print('very good !')
+
