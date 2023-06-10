@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="232306101010">
-      <change afterPath="$PROJECT_DIR$/分支结构的嵌套.py" afterDir="false" />
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="分支嵌套">
+      <change afterPath="$PROJECT_DIR$/while循环.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if语句.py" beforeDir="false" afterPath="$PROJECT_DIR$/if语句.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1686315471363" duration="371000" />
       <workItem from="1686316045130" duration="34000" />
       <workItem from="1686316144604" duration="76000" />
-      <workItem from="1686362687074" duration="2604000" />
+      <workItem from="1686362687074" duration="6691000" />
     </task>
     <task id="LOCAL-00001" summary="23230610">
       <created>1686362320493</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686363206543</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="分支嵌套">
+      <created>1686365875685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686365875685</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +167,8 @@
     <MESSAGE value="23230610" />
     <MESSAGE value="232306101006" />
     <MESSAGE value="232306101010" />
-    <option name="LAST_COMMIT_MESSAGE" value="232306101010" />
+    <MESSAGE value="分支嵌套" />
+    <option name="LAST_COMMIT_MESSAGE" value="分支嵌套" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -174,7 +182,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPythonProject$while.coverage" NAME="while循环 覆盖结果" MODIFIED="1683175447573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$while.coverage" NAME="while循环 覆盖结果" MODIFIED="1686378035636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonProject$hello.coverage" NAME="hello 覆盖结果" MODIFIED="1686299760449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../www/cgi-bin" />
     <SUITE FILE_PATH="coverage/MyPythonProject$if.coverage" NAME="if语句 覆盖结果" MODIFIED="1686364028863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonProject$for.coverage" NAME="for循环的使用练习 覆盖结果" MODIFIED="1686361736967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
