@@ -7,7 +7,6 @@ g['jike'] = 99
 print(g['jike'])
 print(g)
 
-
 # 由于一个key只能对应一个value，所以，多次对一个key放入value，后面的值会把前面的值冲掉：
 g['jike'] = 97
 print(g['jike'])
