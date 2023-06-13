@@ -11,7 +11,6 @@ for a1 in range(101):
 for n1 in range(2, 100):
     for n2 in range(2, n1):
         if n1 % n2 == 0:
-            print(n1, '=', n2, '*', n1 // n2)
             break
     else:
         print(n1, '是一个素数')

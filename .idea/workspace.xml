@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="更改变量命名">
-      <change beforePath="$PROJECT_DIR$/.idea/MyPythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="判断并打印1到100之间所有的素数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for.py" beforeDir="false" afterPath="$PROJECT_DIR$/for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/while循环.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <workItem from="1686316144604" duration="76000" />
       <workItem from="1686362687074" duration="8903000" />
       <workItem from="1686622333177" duration="29000" />
-      <workItem from="1686622375980" duration="1486000" />
+      <workItem from="1686622375980" duration="2520000" />
     </task>
     <task id="LOCAL-00001" summary="23230610">
       <created>1686362320493</created>
@@ -178,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686622641055</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1">
+      <created>1686623896888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686623896888</updated>
+    </task>
+    <task id="LOCAL-00012" summary="判断并打印1到100之间所有的素数">
+      <created>1686623931075</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686623931075</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +214,9 @@
     <MESSAGE value="while循环的练习" />
     <MESSAGE value="while循环中break ,continue 以及else 语句在循环体中的应用" />
     <MESSAGE value="更改变量命名" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改变量命名" />
+    <MESSAGE value="1" />
+    <MESSAGE value="判断并打印1到100之间所有的素数" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断并打印1到100之间所有的素数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,7 +233,7 @@
     <SUITE FILE_PATH="coverage/MyPythonProject$while.coverage" NAME="while循环 覆盖结果" MODIFIED="1686380017579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonProject$hello.coverage" NAME="hello 覆盖结果" MODIFIED="1686299760449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../www/cgi-bin" />
     <SUITE FILE_PATH="coverage/MyPythonProject$if.coverage" NAME="if语句 覆盖结果" MODIFIED="1686623680653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MyPythonProject$for.coverage" NAME="for 覆盖结果" MODIFIED="1686623840091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$for.coverage" NAME="for 覆盖结果" MODIFIED="1686624870190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="分支结构的嵌套 覆盖结果" MODIFIED="1686365380254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
