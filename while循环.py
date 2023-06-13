@@ -57,5 +57,3 @@ while e <= 9:
         f += 1
     print()
     e += 1
-
-
