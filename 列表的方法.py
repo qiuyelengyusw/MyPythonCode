@@ -43,5 +43,5 @@ print(Heros)
 # print(Heroes)
 
 # 改变列表中元素的方法
-Heros[len(Heros) - 1] = '十三'
+Heros[len(Heros) - 1] = '十四'
 print(Heros)
