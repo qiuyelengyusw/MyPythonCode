@@ -17,3 +17,6 @@ print(List2[5])
 print(List2[len(List2) - 2])
 # 下面的语句与上面的语句实现同样的功能
 print(List2[-5])
+
+# 列表切片
+print(List2[3:6]) # 打印列表中从第三个到第六个元素的值
