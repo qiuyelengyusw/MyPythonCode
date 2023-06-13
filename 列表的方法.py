@@ -22,7 +22,7 @@ Heros.insert(0, '银河护卫队')
 print(Heros)
 Heros.insert(len(Heros), 13)
 print(Heros)
-Heros.insert(len(Heros)-1, '这个元素的倒序插入的')
+Heros.insert(len(Heros) - 1, '这个元素的倒序插入的')
 print(Heros)
 
 # 删除元素
@@ -35,9 +35,13 @@ print(Heros)
 # 删除列表中某个位置的元素 pop() 方法
 Heros.append('灭霸')
 print(Heros)
-Heros.pop(len(Heros)-1)
+Heros.pop(len(Heros) - 1)
 print(Heros)
 
 # clear()----清空整个列表
-Heros.clear()
+# Heros.clear()
+# print(Heros)
+
+# 改变列表中元素的方法
+Heros[len(Heros) - 1] = '十三'
 print(Heros)
