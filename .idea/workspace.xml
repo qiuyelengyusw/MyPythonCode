@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="将数据放入dict的方法">
-      <change afterPath="$PROJECT_DIR$/for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/while循环.py" afterDir="false" />
-    </list>
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="去除了冒号" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +102,7 @@
       <workItem from="1686316144604" duration="76000" />
       <workItem from="1686362687074" duration="8903000" />
       <workItem from="1686454644003" duration="3140000" />
+      <workItem from="1686571376077" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="23230610">
       <created>1686362320493</created>
@@ -170,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686455394669</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="去除了冒号">
+      <created>1686571408735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686571408735</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +199,8 @@
     <MESSAGE value="while循环的练习" />
     <MESSAGE value="while循环中break ,continue 以及else 语句在循环体中的应用" />
     <MESSAGE value="将数据放入dict的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="将数据放入dict的方法" />
+    <MESSAGE value="去除了冒号" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除了冒号" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
