@@ -3,12 +3,12 @@ while love == "yes":
     print("Do you love me today?")
     love = str(input())
 i = 1
-sumi = 0
+Sum1 = 0
 while i <= 100:
     i += 1
-    sumi += i
+    Sum1 += i
     print(i)
-print(sumi)
+print(Sum1)
 
 while True:
     print('Can I exit?')
@@ -57,5 +57,3 @@ while e <= 9:
         f += 1
     print()
     e += 1
-
-
