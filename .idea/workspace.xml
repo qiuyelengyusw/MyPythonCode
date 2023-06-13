@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="列表的初步接触" />
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="打印列表中指定位置的值" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +100,7 @@
       <workItem from="1686316144604" duration="76000" />
       <workItem from="1686362687074" duration="8903000" />
       <workItem from="1686622333177" duration="29000" />
-      <workItem from="1686622375980" duration="7819000" />
+      <workItem from="1686622375980" duration="8112000" />
     </task>
     <task id="LOCAL-00001" summary="23230610">
       <created>1686362320493</created>
@@ -200,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686642392456</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="len函数用来获取列表或者字符串的长度">
+      <created>1686644640224</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686644640224</updated>
+    </task>
+    <task id="LOCAL-00016" summary="打印列表中指定位置的值">
+      <created>1686644881149</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686644881149</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +242,9 @@
     <MESSAGE value="1" />
     <MESSAGE value="判断并打印1到100之间所有的素数" />
     <MESSAGE value="列表的初步接触" />
-    <option name="LAST_COMMIT_MESSAGE" value="列表的初步接触" />
+    <MESSAGE value="len函数用来获取列表或者字符串的长度" />
+    <MESSAGE value="打印列表中指定位置的值" />
+    <option name="LAST_COMMIT_MESSAGE" value="打印列表中指定位置的值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -246,6 +262,6 @@
     <SUITE FILE_PATH="coverage/MyPythonProject$hello.coverage" NAME="hello 覆盖结果" MODIFIED="1686299760449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../www/cgi-bin" />
     <SUITE FILE_PATH="coverage/MyPythonProject$if.coverage" NAME="if语句 覆盖结果" MODIFIED="1686623680653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonProject$for.coverage" NAME="for 覆盖结果" MODIFIED="1686624870190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表 覆盖结果" MODIFIED="1686642352792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表 覆盖结果" MODIFIED="1686644848256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
