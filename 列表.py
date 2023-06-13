@@ -12,3 +12,5 @@ k = 0
 while k < len(List2):   #len函数用来获取列表或者字符串的长度
     print(List2[k])
     k += 1
+print('下面语句实现打印列表中指定位置的值')
+print(List2[5])
