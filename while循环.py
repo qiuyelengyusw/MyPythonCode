@@ -1,26 +1,59 @@
-'''
-Author: qiuyelengyusw qiuyelengyu@qq.com
-Date: 2023-05-02 09:54:12
-LastEditors: qiuyelengyusw qiuyelengyu@qq.com
-LastEditTime: 2023-06-08 20:05:23
-FilePath: \MyPythonProject\while循环.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-'''
-import time  #定义一个时间函数，用import 调取
-player_lift = 350  #设定玩家血量值
-player_attack = 20  #设定玩家攻击力
-enemy_lift = 400  #设定敌人血量值
-enemy_attack = 12  #设定敌人攻击力
-while player_lift > 0 and enemy_lift > 0:    #当玩家血量与敌人血量都大于零时运行循环
-    player_lift = player_lift - enemy_attack  #玩家血量等于玩家原来的血量减去敌人攻击力
-    enemy_lift = enemy_lift - player_attack   #敌人血量等于敌人原来的血量减去玩家攻击力
-    print("the enemy launch an attack,the player's blood:" + str(player_lift))
-    print("the player launch an attack,the enemy's blood:" + str(enemy_lift))
-    time.sleep(0.2) #暂停2秒
-if player_lift > 0 >= enemy_lift:  #如果玩家的血量大于零并且敌人的血量小于等于零的时候，判定玩家获胜
-    print("The player Win!")
-    print("以后别玩这个了！")
-else:     #反之则判断敌人获胜
-    print("The enemy Win")  #输出结果
-    print("Game Over")  #游戏结束
-    print("以后别玩这个了！")
+love = "yes"
+while love == "yes":
+    print("Do you love me today?")
+    love = str(input())
+i = 1
+Sum1 = 0
+while i <= 100:
+    i += 1
+    Sum1 += i
+    print(i)
+print(Sum1)
+
+while True:
+    print('Can I exit?')
+    answer1 = str(input())
+    if answer1 == "yes":
+        print('you can exit this')
+        # 跳出循环体
+        break
+    else:
+        print('shit!')
+
+# 使用while 循环以及 continue 语句实现输出奇数
+c = 0
+while c < 100:
+    c += 1
+    if c % 2 == 0:
+        continue  # 当 C 可以被2 整除的时候，跳过下面的print(c),重新回到条件判断语句，如果满足条件，继续执行循环体的语句
+    print(c)
+# 总结，break 语句作用是跳出整个循环体，而continue语句的作用是跳出本次循环，回到循环开始的判断条件语句，如果满足循环条件，则再次运行循环体内的代码
+
+
+# else 语句在循环中的应用
+d = 5
+while d < 10:
+    print('循环内，d 的值是：', d)
+    d += 1
+else:
+    print('循环外，d 的值是：', d)
+
+day = 1
+while day <= 7:
+    answer2 = input('今天你有好好学习了吗？')
+    if answer2 != "yes":
+        break
+    day += 1
+else:
+    print('very good !')
+
+# 循环结构的嵌套 nested loop
+# 九九乘法表
+e = 1
+while e <= 9:
+    f = 1
+    while f <= e:
+        print(f, '*', e, '=', e * f, end=" ")
+        f += 1
+    print()
+    e += 1
