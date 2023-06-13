@@ -39,3 +39,5 @@ Heros.pop(len(Heros)-1)
 print(Heros)
 
 # clear()----清空整个列表
+Heros.clear()
+print(Heros)
