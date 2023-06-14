@@ -86,5 +86,5 @@ Lista = [1, 2, 3]
 Listb = [4, 5, 6]
 print(Lista + Listb)
 
-# 列表的乘法
+# 列表的乘法，将列表中的元素重复N次
 print(Lista * 3)
