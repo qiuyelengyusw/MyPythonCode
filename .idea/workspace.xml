@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="列表切片" />
+<<<<<<< HEAD
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="去除了冒号" />
+=======
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="打印列表中指定位置的值，另一种方法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/列表.py" afterDir="false" />
+    </list>
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,8 +106,13 @@
       <workItem from="1686316045130" duration="34000" />
       <workItem from="1686316144604" duration="76000" />
       <workItem from="1686362687074" duration="8903000" />
+<<<<<<< HEAD
+      <workItem from="1686454644003" duration="3140000" />
+      <workItem from="1686571376077" duration="88000" />
+=======
       <workItem from="1686622333177" duration="29000" />
-      <workItem from="1686622375980" duration="8800000" />
+      <workItem from="1686622375980" duration="8740000" />
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
     </task>
     <task id="LOCAL-00001" summary="23230610">
       <created>1686362320493</created>
@@ -165,6 +177,16 @@
       <option name="project" value="LOCAL" />
       <updated>1686622562938</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00010" summary="去除了冒号">
+      <created>1686571408735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686571408735</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+=======
     <task id="LOCAL-00010" summary="更改变量命名">
       <created>1686622641055</created>
       <option name="number" value="00010" />
@@ -221,14 +243,8 @@
       <option name="project" value="LOCAL" />
       <updated>1686645138299</updated>
     </task>
-    <task id="LOCAL-00018" summary="列表切片">
-      <created>1686645566640</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1686645566640</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="18" />
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +268,11 @@
     <MESSAGE value="分支嵌套" />
     <MESSAGE value="while循环的练习" />
     <MESSAGE value="while循环中break ,continue 以及else 语句在循环体中的应用" />
+<<<<<<< HEAD
+    <MESSAGE value="将数据放入dict的方法" />
+    <MESSAGE value="去除了冒号" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除了冒号" />
+=======
     <MESSAGE value="更改变量命名" />
     <MESSAGE value="1" />
     <MESSAGE value="判断并打印1到100之间所有的素数" />
@@ -259,8 +280,8 @@
     <MESSAGE value="len函数用来获取列表或者字符串的长度" />
     <MESSAGE value="打印列表中指定位置的值" />
     <MESSAGE value="打印列表中指定位置的值，另一种方法" />
-    <MESSAGE value="列表切片" />
-    <option name="LAST_COMMIT_MESSAGE" value="列表切片" />
+    <option name="LAST_COMMIT_MESSAGE" value="打印列表中指定位置的值，另一种方法" />
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
