@@ -50,3 +50,8 @@ print(Heros)
 nums = [1, 3, 6, 5, 10, 2, 15, 11, 30]
 nums.sort()
 print(nums)
+
+
+# 将列表中的元素按照从大到小的顺序排列
+nums.reverse()
+print(nums)
