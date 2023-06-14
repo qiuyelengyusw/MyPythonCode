@@ -67,3 +67,9 @@ print(Heros.index('银河护卫队'))
 Heros[Heros.index('7')] = '神奇女侠'
 print(Heros)
 
+# copy()拷贝列表
+HerosCopy1 = Heros.copy()
+print(Heros)
+print("***************************")
+print(HerosCopy1)
+#
