@@ -85,3 +85,6 @@ print(HerosCopy4)
 Lista = [1, 2, 3]
 Listb = [4, 5, 6]
 print(Lista + Listb)
+
+# 列表的乘法
+print(Lista * 3)
