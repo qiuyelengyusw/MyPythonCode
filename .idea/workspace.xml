@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/MyPythonProject/列表推导式.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_6_10_9_58___Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_6_9_20_59____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_6_9_21_01____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2023_6_9_20_59_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_6_10_9_58_取消提交了更改_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_6_9_21_01_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,14 +45,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686719594533</updated>
-      <workItem from="1686719599686" duration="1700000" />
+      <workItem from="1686719599686" duration="2399000" />
     </task>
+    <task id="LOCAL-00001" summary="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句">
+      <created>1686722738814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686722738814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1686721305348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1686722714418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
   </component>
 </project>
