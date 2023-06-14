@@ -56,3 +56,7 @@ nums.reverse()
 print(nums)
 Heros.reverse()
 print(Heros)
+
+# 查找列表中元素的个数的方法： count()
+print(nums.count(11))
+print(Heros.count('雷神'))
