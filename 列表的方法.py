@@ -72,4 +72,10 @@ HerosCopy1 = Heros.copy()
 print(Heros)
 print("***************************")
 print(HerosCopy1)
-#
+# 使用切片的方法实现列表的拷贝
+HerosCopy2 = Heros[:]
+print(HerosCopy2)
+HerosCopy3 = Heros[3:]
+print(HerosCopy3)
+HerosCopy4 = Heros[:10]
+print(HerosCopy4)
