@@ -45,3 +45,8 @@ print(Heros)
 # 改变列表中元素的方法
 Heros[len(Heros) - 1] = '十六'
 print(Heros)
+
+# 将列表中的元素按照从小到大的顺序排列
+nums = [1, 3, 6, 5, 10, 2, 15, 11, 30]
+nums.sort()
+print(nums)
