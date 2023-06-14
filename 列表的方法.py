@@ -60,3 +60,10 @@ print(Heros)
 # 查找列表中元素的个数的方法： count()
 print(nums.count(11))
 print(Heros.count('雷神'))
+
+# index()方法查找列表中元素的索引值
+print(Heros.index('银河护卫队'))
+# 将列表中元素'7'，替换成'神奇女侠'
+Heros[Heros.index('7')] = '神奇女侠'
+print(Heros)
+
