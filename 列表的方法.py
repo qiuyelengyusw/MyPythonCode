@@ -88,3 +88,7 @@ print(Lista + Listb)
 
 # 列表的乘法，将列表中的元素重复N次
 print(Lista * 3)
+
+# 嵌套列表
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(matrix)
