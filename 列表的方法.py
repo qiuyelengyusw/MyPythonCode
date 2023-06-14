@@ -79,3 +79,9 @@ HerosCopy3 = Heros[3:]
 print(HerosCopy3)
 HerosCopy4 = Heros[:10]
 print(HerosCopy4)
+
+# 列表的加法和乘法
+# 1、列表的加法
+Lista = [1, 2, 3]
+Listb = [4, 5, 6]
+print(Lista + Listb)
