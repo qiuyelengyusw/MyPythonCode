@@ -128,3 +128,13 @@ print(A)
 print(C)
 var = C[0][0] is A[0][0]
 print(var)
+
+# 浅拷贝
+d = [1, 2, 3]
+e = d.copy()
+print(d)
+print(e)
+print('********************************************')
+d[1] = 20
+print(d)
+print(e)
