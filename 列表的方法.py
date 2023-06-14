@@ -105,3 +105,11 @@ for i in matrix:
 # 通过下标访问列表
 print(matrix[0])
 print(matrix[0][1])
+
+# 用循环和乘法创建简单的二维列表
+A = [1] * 3
+print(A)
+for i in range(3):
+    A[i] = [1] * 3
+    print(i)
+    print(A)
