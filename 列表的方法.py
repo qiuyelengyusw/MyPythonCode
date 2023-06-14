@@ -11,7 +11,7 @@ Heros[len(Heros):] = ['7']
 print(Heros)
 
 Heros[len(Heros):] = [8, 9, 10]
-Heros.extend([10, 11, 12])
+Heros.extend([11, 12, 13])
 print(Heros)
 
 # 在列表的任意位置添加数据 insert()
@@ -20,7 +20,7 @@ Heros.insert(1, '蜘蛛侠')
 print(Heros)
 Heros.insert(0, '银河护卫队')
 print(Heros)
-Heros.insert(len(Heros), 13)
+Heros.insert(len(Heros), 14)
 print(Heros)
 Heros.insert(len(Heros) - 1, '这个元素的倒序插入的')
 print(Heros)
