@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="打印列表中指定位置的值，另一种方法">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/列表.py" afterDir="false" />
-    </list>
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="列表切片" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +100,7 @@
       <workItem from="1686316144604" duration="76000" />
       <workItem from="1686362687074" duration="8903000" />
       <workItem from="1686622333177" duration="29000" />
-      <workItem from="1686622375980" duration="8740000" />
+      <workItem from="1686622375980" duration="8800000" />
     </task>
     <task id="LOCAL-00001" summary="23230610">
       <created>1686362320493</created>
@@ -224,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686645138299</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="列表切片">
+      <created>1686645566640</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686645566640</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +259,8 @@
     <MESSAGE value="len函数用来获取列表或者字符串的长度" />
     <MESSAGE value="打印列表中指定位置的值" />
     <MESSAGE value="打印列表中指定位置的值，另一种方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="打印列表中指定位置的值，另一种方法" />
+    <MESSAGE value="列表切片" />
+    <option name="LAST_COMMIT_MESSAGE" value="列表切片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
