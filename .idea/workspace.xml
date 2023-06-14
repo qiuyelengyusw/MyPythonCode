@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句" />
+<<<<<<< HEAD
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="去除了冒号" />
+=======
+    <list default="true" id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="打印列表中指定位置的值，另一种方法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/列表.py" afterDir="false" />
+    </list>
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,52 +26,279 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="ProjectId" id="2RBNccyYc7DTNbXd6S7Cxv1rvCN" />
+  <component name="ProjectId" id="2QyAVEwYUFDuTzTOhQ7yN6sJSjP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="if语句" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MyPythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\技术部\AppData\Local\Microsoft\WindowsApps\python3.11.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/if语句.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MyPythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="" />
-      <created>1686719594533</created>
+      <changelist id="238105e4-9b2f-4c44-a6d1-6345b2e50a39" name="更改" comment="" />
+      <created>1686315470052</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1686719594533</updated>
-      <workItem from="1686719599686" duration="2399000" />
+      <updated>1686315470052</updated>
+      <workItem from="1686315471363" duration="371000" />
+      <workItem from="1686316045130" duration="34000" />
+      <workItem from="1686316144604" duration="76000" />
+      <workItem from="1686362687074" duration="8903000" />
+<<<<<<< HEAD
+      <workItem from="1686454644003" duration="3140000" />
+      <workItem from="1686571376077" duration="88000" />
+=======
+      <workItem from="1686622333177" duration="29000" />
+      <workItem from="1686622375980" duration="8740000" />
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
     </task>
-    <task id="LOCAL-00001" summary="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句">
-      <created>1686722738814</created>
+    <task id="LOCAL-00001" summary="23230610">
+      <created>1686362320493</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1686722738814</updated>
+      <updated>1686362320494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="23230610">
+      <created>1686362333687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686362333687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="23230610">
+      <created>1686362852642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686362852642</updated>
+    </task>
+    <task id="LOCAL-00004" summary="232306101006">
+      <created>1686362944785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686362944785</updated>
+    </task>
+    <task id="LOCAL-00005" summary="232306101010">
+      <created>1686363206542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686363206543</updated>
+    </task>
+    <task id="LOCAL-00006" summary="分支嵌套">
+      <created>1686365875685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686365875685</updated>
+    </task>
+    <task id="LOCAL-00007" summary="while循环的练习">
+      <created>1686378533492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686378533492</updated>
+    </task>
+    <task id="LOCAL-00008" summary="while循环中break ,continue 以及else 语句在循环体中的应用">
+      <created>1686379449790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686379449790</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更改变量命名">
+      <created>1686622562938</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686622562938</updated>
+    </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00010" summary="去除了冒号">
+      <created>1686571408735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686571408735</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+=======
+    <task id="LOCAL-00010" summary="更改变量命名">
+      <created>1686622641055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686622641055</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1686623896888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686623896888</updated>
+    </task>
+    <task id="LOCAL-00012" summary="判断并打印1到100之间所有的素数">
+      <created>1686623931075</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686623931075</updated>
+    </task>
+    <task id="LOCAL-00013" summary="判断并打印1到100之间所有的素数">
+      <created>1686624972895</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686624972895</updated>
+    </task>
+    <task id="LOCAL-00014" summary="列表的初步接触">
+      <created>1686642392456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686642392456</updated>
+    </task>
+    <task id="LOCAL-00015" summary="len函数用来获取列表或者字符串的长度">
+      <created>1686644640224</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686644640224</updated>
+    </task>
+    <task id="LOCAL-00016" summary="打印列表中指定位置的值">
+      <created>1686644881149</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686644881149</updated>
+    </task>
+    <task id="LOCAL-00017" summary="打印列表中指定位置的值，另一种方法">
+      <created>1686645138299</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686645138299</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句" />
+    <MESSAGE value="23230610" />
+    <MESSAGE value="232306101006" />
+    <MESSAGE value="232306101010" />
+    <MESSAGE value="分支嵌套" />
+    <MESSAGE value="while循环的练习" />
+    <MESSAGE value="while循环中break ,continue 以及else 语句在循环体中的应用" />
+<<<<<<< HEAD
+    <MESSAGE value="将数据放入dict的方法" />
+    <MESSAGE value="去除了冒号" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除了冒号" />
+=======
+    <MESSAGE value="更改变量命名" />
+    <MESSAGE value="1" />
+    <MESSAGE value="判断并打印1到100之间所有的素数" />
+    <MESSAGE value="列表的初步接触" />
+    <MESSAGE value="len函数用来获取列表或者字符串的长度" />
+    <MESSAGE value="打印列表中指定位置的值" />
+    <MESSAGE value="打印列表中指定位置的值，另一种方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="打印列表中指定位置的值，另一种方法" />
+>>>>>>> 73ab9177a3bba0740a37cf4a3110f6c14e4ce59c
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1686722714418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$while.coverage" NAME="while循环 覆盖结果" MODIFIED="1686380017579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$hello.coverage" NAME="hello 覆盖结果" MODIFIED="1686299760449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../www/cgi-bin" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$if.coverage" NAME="if语句 覆盖结果" MODIFIED="1686623680653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$for.coverage" NAME="for 覆盖结果" MODIFIED="1686624870190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表 覆盖结果" MODIFIED="1686645515087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
