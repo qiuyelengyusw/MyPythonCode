@@ -19,7 +19,7 @@ print(List2[len(List2) - 2])
 print(List2[-5])
 
 # 列表切片
-print(List2[3:6]) # 打印列表中从第三个到第六个元素的值
+print(List2[3:6])  # 打印列表中从第三个到第六个元素的值
 
 # 实现列表输出的几种方法
 print(List2[3:])
@@ -29,5 +29,3 @@ print(List2[0:6:2])  # 第三个冒号为步进的值
 print(List2[::2])
 print(List2[::-2])
 print(List2[::-1])  # 将整个列表倒序输出
-
-
