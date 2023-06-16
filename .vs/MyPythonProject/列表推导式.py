@@ -40,11 +40,15 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 col1 = [row[0] for row in matrix]
 print(col1)
 
+#    1  2  3
+#    4  5  6
+#    7  8  9
+
 # 取出对角的元素，1，5，9
 col3 = [matrix[i][i] for i in range(len(matrix))]
 print(len(matrix))
 print(col3)
 print('**************************')
 # 输出 3，5，7
-col4 = [matrix[len(matrix)-i-1][len(matrix)-i-1] for i in range(len(matrix))]
+col4 = [matrix[i][len(matrix)-i-1] for i in range(len(matrix))]
 print(col4)
