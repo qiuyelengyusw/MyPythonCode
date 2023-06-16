@@ -50,5 +50,12 @@ print(len(matrix))
 print(col3)
 print('**************************')
 # 输出 3，5，7
-col4 = [matrix[i][len(matrix)-i-1] for i in range(len(matrix))]
+col4 = [matrix[i][len(matrix) - i - 1] for i in range(len(matrix))]
 print(col4)
+print('**************************')
+print('使用列表推导式创建列表')
+# 使用列表推导式创建列表
+S = [[0] * 3 for i in range(3)]
+print(S)
+S[0][1] = 1
+print(S)
