@@ -59,3 +59,17 @@ S = [[0] * 3 for i in range(3)]
 print(S)
 S[0][1] = 1
 print(S)
+print('************************************')
+
+even = [i for i in range(10) if i % 2 == 0]
+print(even)
+
+# 从列表中筛选出以“F”开头的单词
+words = ["Green", 'FishC', 'Fuck', 'Excellent', 'Fantastic']
+wordsF = [w for w in words if w[0] == 'F']
+print('************************************')
+print(wordsF)
+print('使用for 语句和if条件语句实现上面代码的功能')
+for wy in words:
+    if wy[0] == 'F':
+        print(wy, end=' ')

@@ -101,7 +101,7 @@ for i in matrix:
     for each in i:
         print(each, end=' ')
     print()
-
+print('通过下标访问列表')
 # 通过下标访问列表
 print(matrix[0])
 print(matrix[0][1])
