@@ -73,3 +73,19 @@ print('使用for 语句和if条件语句实现上面代码的功能')
 for wy in words:
     if wy[0] == 'F':
         print(wy, end=' ')
+
+# 嵌套的列表推导式
+print('嵌套的列表推导式')
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flatten = [col for row in matrix for col in row]
+print(flatten)
+print('************************************')
+# 以上嵌套的列表推导式，等同于以下代码
+flatten = []
+for row in matrix:
+    for col in row:
+        flatten[row] = matrix[col][row]
+    print(flatten)
+print('************************************')
+for each in flatten:
+    print(each, end=' ')
