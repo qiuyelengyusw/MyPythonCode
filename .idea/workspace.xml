@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="使用列表推导式的各种使用方法，以及列表推导式的终极嵌套（需要经常复习）" />
+    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="复习使用循环语句创建二维列表">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/列表推导式2.py" beforeDir="false" afterPath="$PROJECT_DIR$/列表推导式2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +70,7 @@
       <workItem from="1686719599686" duration="4006000" />
       <workItem from="1686893260929" duration="1103000" />
       <workItem from="1686895514693" duration="4262000" />
-      <workItem from="1687155517465" duration="4660000" />
+      <workItem from="1687155517465" duration="5154000" />
     </task>
     <task id="LOCAL-00001" summary="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句">
       <created>1686722738814</created>
@@ -146,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687160166003</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="复习使用循环语句创建二维列表">
+      <created>1687160581256</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687160581256</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,9 +184,11 @@
     <MESSAGE value="使用列表推导式和for循环，if条件判断语句来实现从列表中找出某个字符（20230619）" />
     <MESSAGE value="使用列表推导式和for循环，if条件判断语句来实现从列表中找出某个字符（202306191032）" />
     <MESSAGE value="使用列表推导式的各种使用方法，以及列表推导式的终极嵌套（需要经常复习）" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用列表推导式的各种使用方法，以及列表推导式的终极嵌套（需要经常复习）" />
+    <MESSAGE value="复习使用循环语句创建二维列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习使用循环语句创建二维列表" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyPythonProject$2.coverage" NAME="列表推导式2 覆盖结果" MODIFIED="1687160710033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonCode$New.coverage" NAME="New 覆盖结果" MODIFIED="1686555225718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1687142028781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
     <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1687159756863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
