@@ -47,6 +47,7 @@ print(col3)
 print('**************************')
 # 思考练习
 # 输出 3，5，7
-
-col4 = [matrix[len(matrix)-i-1][len(matrix)-i-1] for i in range(len(matrix))]
+print('输出3, 5, 7')
+col4 = [matrix[i][len(matrix)-i-1] for i in range(len(matrix))]
 print(col4)
+print('**************************')
