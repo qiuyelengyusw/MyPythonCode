@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="# 输出 3，5，7">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="输出 3，5，7（06191127）" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,18 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -71,6 +70,7 @@
       <workItem from="1686895514693" duration="4262000" />
       <workItem from="1687142067659" duration="143000" />
       <workItem from="1687143637572" duration="1556000" />
+      <workItem from="1687145236707" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="# 将一个列表中的所有元素的值都乘以2&#10;# 下面的代码是用自己的方法实现此功能，用循环语句">
       <created>1686722738814</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687145080518</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="输出 3，5，7（06191127）">
+      <created>1687145272499</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687145272499</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,11 +213,12 @@
     <MESSAGE value="使用列表推导式和for循环，if条件判断语句来实现从列表中找出某个字符（202306191032）" />
     <MESSAGE value="使用列表推导式和for循环，if条件判断语句来实现从列表中找出某个字符（202306191）" />
     <MESSAGE value="# 输出 3，5，7" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 输出 3，5，7" />
+    <MESSAGE value="输出 3，5，7（06191127）" />
+    <option name="LAST_COMMIT_MESSAGE" value="输出 3，5，7（06191127）" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1686922364212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
     <SUITE FILE_PATH="coverage/MyPythonCode$New.coverage" NAME="New 覆盖结果" MODIFIED="1686555225718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1687145064559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1687145247345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
   </component>
 </project>
