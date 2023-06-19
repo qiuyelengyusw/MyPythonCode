@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="使用列表推导式，输出二维列表中指定位置的元素（未完成）">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="af0b514f-8e08-4f59-9ff4-92d38dcca7b3" name="更改" comment="使用列表推导式和for循环，if条件判断语句来实现从列表中找出谋个字符开头的单词1">
+      <change beforePath="$PROJECT_DIR$/.vs/MyPythonProject/列表推导式.py" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyPythonProject/列表推导式.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2RBNccyYc7DTNbXd6S7Cxv1rvCN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,6 +134,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用列表推导式，输出二维列表中指定位置的元素（未完成）" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1686899539945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
+    <SUITE FILE_PATH="coverage/MyPythonProject$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1686922364212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$New.coverage" NAME="New 覆盖结果" MODIFIED="1686555225718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="列表推导式 覆盖结果" MODIFIED="1687140889167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vs/MyPythonProject" />
   </component>
 </project>

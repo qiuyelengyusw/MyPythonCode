@@ -40,52 +40,12 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 col1 = [row[0] for row in matrix]
 print(col1)
 
-#    1  2  3
-#    4  5  6
-#    7  8  9
-
 # 取出对角的元素，1，5，9
 col3 = [matrix[i][i] for i in range(len(matrix))]
 print(len(matrix))
 print(col3)
 print('**************************')
+# 思考练习
 # 输出 3，5，7
-col4 = [matrix[i][len(matrix) - i - 1] for i in range(len(matrix))]
+col4 = [matrix[len(matrix)-i-1][len(matrix)-i-1] for i in range(len(matrix))]
 print(col4)
-print('**************************')
-print('使用列表推导式创建列表')
-# 使用列表推导式创建列表
-S = [[0] * 3 for i in range(3)]
-print(S)
-S[0][1] = 1
-print(S)
-print('************************************')
-
-even = [i for i in range(10) if i % 2 == 0]
-print(even)
-
-# 从列表中筛选出以“F”开头的单词
-words = ["Green", 'FishC', 'Fuck', 'Excellent', 'Fantastic']
-wordsF = [w for w in words if w[0] == 'F']
-print('************************************')
-print(wordsF)
-print('使用for 语句和if条件语句实现上面代码的功能')
-for wy in words:
-    if wy[0] == 'F':
-        print(wy, end=' ')
-
-# 嵌套的列表推导式
-print('嵌套的列表推导式')
-matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-flatten = [col for row in matrix for col in row]
-print(flatten)
-print('************************************')
-# 以上嵌套的列表推导式，等同于以下代码
-flatten = []
-for row in matrix:
-    for col in row:
-        flatten[row] = matrix[col][row]
-    print(flatten)
-print('************************************')
-for each in flatten:
-    print(each, end=' ')
