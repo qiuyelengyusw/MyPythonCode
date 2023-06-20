@@ -19,6 +19,6 @@ print()
 # 这三个方法可以传入参数
 x = 'www.fuck.com.cn'
 # 去掉字符串左边的W
-print(x.lstrip('w'))
-print(x.rstrip('cn'))
-print(x.strip('wcn'))
+print(x.lstrip('wcn.'))
+print(x.rstrip('.cn'))
+print(x.strip('wcn.'))
