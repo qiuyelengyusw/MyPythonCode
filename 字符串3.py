@@ -6,3 +6,12 @@ print(x.startswith('正在'))
 # endswith() 用法与startswith()相反，判断字符串中指定的字符是否出现在字符串的末尾
 print(x.endswith('python'))
 print(x.endswith('习'))
+print()
+if x.startswith(('你', '我', '他')):
+    print('总有人会喜欢Python的')
+print()
+
+# istitle() 判断字符串是否每个单词都是以大写字母开头，其余字母都是小写
+x = 'I love python'
+print(x.istitle())
+print('I Love Python'.istitle())
