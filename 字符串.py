@@ -15,8 +15,8 @@ x = 'I love You'
 # capitalize(): 将字符串的首字母变成大写，其他字母变成小写
 print(x.capitalize())
 print()
-# casefold():将字符串中所有字符变成小写
+# casefold():返回一个新的字符串其中每个单词都变成小写
 print(x.casefold())
 print()
-# title() 返回一个首字符大写的字符串
+# title() 返回一个每个单词的首字母大写的字符串
 print(x.title())
