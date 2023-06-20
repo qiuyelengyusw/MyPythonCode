@@ -22,3 +22,8 @@ print('I love Python'.isupper())
 print('I love python'.upper().isupper())
 print('i love you'.upper())
 print('I LOVE PYTHON'.isupper())
+print()
+# isalpha() 检测判断字符串中是否都是有字母构成
+# 注意：空格在python里被认为不是字母
+print('i love you '.isalpha())
+print('ILovePython'.isalpha())
