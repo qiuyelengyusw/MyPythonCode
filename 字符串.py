@@ -23,3 +23,6 @@ print(x.title())
 print()
 # swapcase() ：返回一个新的字符串，将字符串中所有单词的大小写进行翻转
 print(x.swapcase())
+print()
+# upper(): 返回一个新的字符串，将原字符串中所有字母都变成大写
+print(x.upper())
