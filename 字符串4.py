@@ -9,3 +9,8 @@ print()
 x = '右侧不要留空白       '
 print(x)
 print(x.rstrip())
+print()
+# strip()去掉字符串左右两侧的空白
+x = '   两端都不要留空白    '
+print(x)
+print(x.strip())
