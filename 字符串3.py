@@ -36,3 +36,14 @@ print()
 print('i love you'.isprintable())
 # 转义字符不可以被打印
 print('i love you\n '.isprintable())
+print()
+
+x = '12345'
+print(x.isdecimal())
+print(x.isdigit())
+print(x.isnumeric())
+print()
+x = '一二三四五'
+print(x.isdecimal())
+print(x.isdigit())
+print(x.isnumeric())
