@@ -26,3 +26,18 @@ print(x.swapcase())
 print()
 # upper(): 返回一个新的字符串，将原字符串中所有字母都变成大写
 print(x.upper())
+print()
+# lower():返回一个新的字符串，将原字符串中所有字母都变成小写
+print(x.lower())
+print()
+# 字符串的对齐方法：
+
+# center(with)
+x = '有内鬼，停止交易！'
+print(x.center(5))
+print(x.center(15, '狗'))
+print()
+print(x.ljust(5))
+print(x.ljust(15, '人'))
+print()
+print(x.zfill(20))
