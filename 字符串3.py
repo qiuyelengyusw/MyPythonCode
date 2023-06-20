@@ -15,3 +15,7 @@ print()
 x = 'I love python'
 print(x.istitle())
 print('I Love Python'.istitle())
+print()
+# isupper() 判断字符串中所有字母都是大写
+print('I love Python'.isupper())
+print('I LOVE PYTHON'.isupper())
