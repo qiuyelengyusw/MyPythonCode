@@ -31,3 +31,8 @@ print()
 # isspace() 判断字符串是否为一个空白字符串
 print('I Love You'.isspace())
 print(' '.isspace())
+print()
+# isprintable() 判断一个字符串中是否所有字符都是可以打印的
+print('i love you'.isprintable())
+# 转义字符不可以被打印
+print('i love you\n '.isprintable())
