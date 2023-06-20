@@ -20,3 +20,6 @@ print(x.casefold())
 print()
 # title() 返回一个每个单词的首字母大写的字符串
 print(x.title())
+print()
+# swapcase() ：返回一个新的字符串，将第一个单词的首字母变成小写，其他单词的每个字母都变成大写
+print(x.swapcase())
