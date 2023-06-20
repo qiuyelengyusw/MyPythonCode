@@ -51,3 +51,10 @@ print()
 # isidentifier() 判断一个字符串是否是合法的python标识符
 print('I am a good men'.isidentifier())
 print('I_am_a_good_man'.isidentifier())
+print()
+print('使用keyword模块的iskeyword()判断一个字符串是不是python的保留标识符')
+# 使用keyword模块的iskeyword()判断一个字符串是不是python的保留标识符
+import keyword
+
+print(keyword.iskeyword('if'))
+print(keyword.iskeyword('fuck'))
