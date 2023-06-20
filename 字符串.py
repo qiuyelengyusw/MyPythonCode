@@ -17,3 +17,6 @@ print(x.capitalize())
 print()
 # casefold():将字符串中所有字符变成小写
 print(x.casefold())
+print()
+# title() 返回一个首字符大写的字符串
+print(x.title())
