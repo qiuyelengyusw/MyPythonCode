@@ -58,3 +58,4 @@ import keyword
 
 print(keyword.iskeyword('if'))
 print(keyword.iskeyword('fuck'))
+print(keyword.iskeyword('for'))
