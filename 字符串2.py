@@ -26,3 +26,5 @@ print('在吗？我在你家楼下，快点下来！'.replace('在吗？', '想�
 print('I love FishC'.translate(str.maketrans('ABCDEFG', '1234567')))
 print()
 print('I love FishC'.translate(str.maketrans('ABCDEFG', '1234567', 'love')))
+print()
+print('I love FishC'.translate(str.maketrans('ABCDEFG', '1234567', 've')))
