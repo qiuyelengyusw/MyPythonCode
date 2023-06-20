@@ -26,3 +26,37 @@ print()
 print()
 print(x.removeprefix('www.'))
 print(x.removesuffix('.com.cn'))
+print()
+print()
+# 拆分&拼接
+print(x.partition('.'))
+print(x.rpartition('.'))
+print()
+print(x.split())
+print(x.split('.'))
+print(x.split('.', 1))
+print(x.split('.', 2))
+print(x.rsplit('.', 1))
+print(x.rsplit('.', 2))
+x = 'www\r\nfuck\ncom\ncn'
+print(x)
+print(x.split('\n'))
+print(x.splitlines())
+print()
+# join()
+# 用列表
+x = '.'.join(['www', 'fuck', 'com', 'cn'])
+print(x)
+print()
+# 用元组也可以
+x = '.'.join(('www', 'fuck', 'com', 'cn'))
+print(x)
+print()
+# 字符串拼接的两种方法
+x = 'fuck'
+x += x
+print(x)
+print()
+# 使用join（）
+x = ''.join(('fuck', 'fuck'))
+print(x)
