@@ -9,8 +9,11 @@ if x == x[::-1]:
     print('是回文数')
 else:
     print('不是回文数')
-
+print()
 # 字符串的方法
 x = 'I love You'
 # capitalize(): 将字符串的首字母变成大写，其他字母变成小写
 print(x.capitalize())
+print()
+# casefold():将字符串中所有字符变成小写
+print(x.casefold())
