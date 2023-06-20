@@ -12,5 +12,5 @@ else:
 
 # 字符串的方法
 x = 'I love You'
-# capitalize(): 将字符串的首字母变成大写，其他字符变成小写
+# capitalize(): 将字符串的首字母变成大写，其他字母变成小写
 print(x.capitalize())
