@@ -27,3 +27,7 @@ print()
 # 注意：空格在python里被认为不是字母
 print('i love you '.isalpha())
 print('ILovePython'.isalpha())
+print()
+# isspace() 判断字符串是否为一个空白字符串
+print('I Love You'.isspace())
+print(' '.isspace())
