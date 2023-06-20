@@ -22,3 +22,7 @@ x = 'www.fuck.com.cn'
 print(x.lstrip('wcn.'))
 print(x.rstrip('.cn'))
 print(x.strip('wcn.'))
+print()
+print()
+print(x.removeprefix('www.'))
+print(x.removesuffix('.com.cn'))
