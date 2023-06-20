@@ -18,4 +18,7 @@ print('I Love Python'.istitle())
 print()
 # isupper() 判断字符串中所有字母都是大写
 print('I love Python'.isupper())
+# 同时调用两个方法
+print('I love python'.upper().isupper())
+print('i love you'.upper())
 print('I LOVE PYTHON'.isupper())
