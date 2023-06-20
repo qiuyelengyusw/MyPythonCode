@@ -14,3 +14,11 @@ print()
 x = '   两端都不要留空白    '
 print(x)
 print(x.strip())
+print()
+
+# 这三个方法可以传入参数
+x = 'www.fuck.com.cn'
+# 去掉字符串左边的W
+print(x.lstrip('w'))
+print(x.rstrip('cn'))
+print(x.strip('wcn'))
