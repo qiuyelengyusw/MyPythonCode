@@ -14,3 +14,6 @@ for n1 in range(2, 100):
             break
     else:
         print(n1, '是一个素数')
+
+for i in range(1, 6):
+    print(i)
