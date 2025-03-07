@@ -21,5 +21,5 @@ print('好好学习，天天向上') if age1 <= 12 else print('欢迎观看')
 # 练习 # 判断两个数字的大小
 a = int(input("请输入一个数字："))
 b = int(input("请在输入一个数字："))
-print("最大的数字是：", b if a < b else a )
+print("最大的数字是：", b if a < b else a ) #if else 语句的另一种用法
 
