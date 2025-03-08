@@ -4,7 +4,7 @@ for each in "Qiuyelengyu":
 print()
 #用while循环语句实现同样的功能
 str = "Qiuyelengyu"
-length = len(str)
+length = len(str) #获取字符串的长度
 index = 0
 while index < length:
     print(str[index])
