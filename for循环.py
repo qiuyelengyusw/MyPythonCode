@@ -38,7 +38,7 @@ sum = 1
 for i in range(1,11):
     if i % 2 == 0:
         sum *= i
-print(sum)
+print(sum) # 输出结果为480
 
 #for循环实现1到10之间所有奇数的乘积
 sum = 1 #乘积的初始值为1
