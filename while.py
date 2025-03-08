@@ -13,3 +13,12 @@ n = 100
 sum = n * (n + 1) // 2 # 计算1到n的和
 print(sum) # 输出sum的值
 #这样可以避免使用循环，提高计算效率。
+
+while True: # 无限循环
+    answer = input("请输入quit退出：") # 输入quit退出循环
+    if answer == "quit":              # 如果输入quit
+        break                         # 退出循环
+    print('如果想推出循环，请输入'"quit")      # 输出你输入的内容
+print("你输入的是：", answer)          # 输出你输入的内容
+print("循环已推出")                    # 输出循环已退出
+print("----------------------")
