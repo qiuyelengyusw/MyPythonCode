@@ -22,3 +22,12 @@ while True: # 无限循环
 print("你输入的是：", answer)          # 输出你输入的内容
 print("循环已推出")                    # 输出循环已退出
 print("----------------------")
+
+# continue 语句
+i = 0
+while i < 10:
+    i += 1
+    if i % 2 != 0: # 如果i是奇数
+        continue # 跳过本次循环
+    print(i) # 输出i的值
+print("----------------------")
