@@ -18,14 +18,14 @@ for i in range(1,101):
 #用for循环实现1到1000之间所有数的和
 sum = 0
 for i in range(1,1001):
-    sum += i
+    sum += i # sum = sum + i
 print(sum)
 #for循环求1到10之间所有奇数的和
 sum = 0
 for i in range(1,11):
     if i % 2 == 1:
         sum += i
-print(sum)
+print(sum) # 输出结果为25
 # for循环求1到10之间所有偶数的和
 sum = 0
 for i in range(1,11):
