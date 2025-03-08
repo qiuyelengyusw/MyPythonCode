@@ -31,7 +31,7 @@ sum = 0
 for i in range(1,11):
      if i % 2 == 0:
          sum += i
-print(sum)
+print(sum)  # 输出结果为30
 
 # for循环实现1到10之间所有偶数的乘积
 sum = 1
