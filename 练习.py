@@ -36,12 +36,12 @@ print(msg1.upper().isupper())  # 判断字符串中的值是否全部为大写
 strd = "0123456789"
 print(strd[0:-1])  # 输出第一个到倒数第二个的所有字符
 print(strd[0])  # 输出字符串第一个字符
-print(strd[2:5])
+print(strd[2:5]) # 输出从第三个开始到第五个的字符
 print(strd[1:8:2])  # 输出从第二个开始到第八个，每隔一个的字符（步长为2）
 print("\n")
 print(strd * 2)
 a = 123
-print(isinstance(a, int))
+print(isinstance(a, int)) #判断a是否为int类型
 IntA = 21
 IntB = 10
 IntC = 0
