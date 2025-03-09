@@ -50,3 +50,11 @@ if sum % 2 == 0 :
      print(sum , "是偶数")
 else:
     print(sum, "是奇数")
+
+
+print("----------------------")
+temperature = int(input("今天的温度是多少度："))
+if temperature > 30:
+    print("天气很热")
+elif temperature < 30:
+    print("天气不热")
